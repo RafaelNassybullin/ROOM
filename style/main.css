@@ -169,7 +169,7 @@ ul {
     /*height: 100px;*/
     /*background: pink;*/
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(550.33px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
 }
 
 .catalogue-wrap .items {
@@ -232,4 +232,77 @@ ul {
 .brands-logo__item {
     display: flex;
     justify-content: center;
+}
+
+ul.swiper-wrapper {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    max-width: 100%;
+}
+
+.swiper-container img {
+    width: 100%;
+}
+
+.swiper-slide {
+    width: 94%;
+    height: 736px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    text-align: center;
+    margin: 17px 6px;
+    background: #a3a3a3;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 26px;
+    color: white;
+}
+
+.swiper-button-prev:after {
+    margin-left: 100px;
+}
+
+.swiper-button-next:after {
+    margin-right: 100px;
+}
+
+.swiper-pagination-bullet:hover {
+    transition: background-color 0.5s ease;
+    /*background: rgba(0, 0, 0, 1);*/
+    color: white;
+}
+
+.swiper-pagination-bullet-active {
+    color: #fff;
+    background: #46856E;
+}
+
+.swiper-pagination {
+    width: 100%;
+}
+
+.test69 {
+    width: 100%;
+    height: 100vh;
+}
+
+@media (max-width: 776px) {
+    .swiper-slide {
+        height: 736px;
+    }
 }

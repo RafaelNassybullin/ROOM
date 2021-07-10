@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1">
+    <link rel="stylesheet" href="style/swiper.min.css">
     <link rel="stylesheet" href="style/main.css">
     <title>ROOM</title>
 </head>
 <body>
 <nav class="nav">
     <div class="upend-wrap">
-
-
         <div class="wrap__nav">
             <div class="uppend__nav-wrap">
                 <p class="uppend__nav-sales"><a href="">Contact Sales</a></p>
@@ -197,11 +196,28 @@
         <div class="brands-logo__item">
             <img src="img/Rectangle-17.png" alt="">
         </div>
-
-
     </div>
 </section>
+<section>
+    <div class="swiper-container">
+        <ul class="swiper-wrapper my-gallery">
+            <li id="1" class="swiper-slide">
+                <img src="img/Rectangle%20(2).png" alt="Image description"/>
+            </li>
+            <li id="2" class="swiper-slide">
+                <img src="img/Rectangle%20(3).png" alt="Image description"/>
+            </li>
+            <li id="3" class="swiper-slide">
+                <img src="img/Rectangle%20(5).png" alt="Image description"/>
+            </li>
+        </ul>
+        <div title="Prev" class="swiper-button-prev"></div>
+        <div title="Next" class="swiper-button-next"></div>
+    </div>
+    <div class="swiper-pagination"></div>
+</section>
 
-<script src="js/app.js"></script>
+<script defer src="js/swiper.min.js"></script>
+<script defer src="js/app.js"></script>
 </body>
 </html>
