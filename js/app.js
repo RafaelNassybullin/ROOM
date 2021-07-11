@@ -5,7 +5,7 @@ let mySwiper = new Swiper(".swiper-container", {
     spaceBetween: false,
     centeredSlides: true,
     slideToClickedSlide: false,
-    autoplayd: {
+    autoplay: {
         delay: 3000,
         disableOnInteraction: false
     },
@@ -21,3 +21,4 @@ let mySwiper = new Swiper(".swiper-container", {
         enabled: true,
     }
 });
+
