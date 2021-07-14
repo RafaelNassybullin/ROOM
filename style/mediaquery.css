@@ -2,7 +2,154 @@
     .swiper-slide {
         height: 736px;
     }
+
+    .main {
+        padding: 49px 15px;
+    }
 }
 
+@media (max-width: 919px) {
+    .reviews {
+        padding: 120px 40px
+    }
 
+    .gray {
+        height: unset;
+    }
 
+    .gray h1 {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .terms {
+        margin-bottom: 30px;
+    }
+
+    .trial__icons-items {
+        margin: 25px 0 25px 0;
+    }
+}
+
+@media (max-width: 876px) {
+    .description {
+        grid-template-columns: 1fr;
+    }
+
+    .reviews a {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 854px) {
+    .about-product {
+        grid-template-columns: 100%;
+    }
+
+    .about-product-revert {
+        grid-template-columns: 100%
+    }
+
+    .about-product__title {
+        order: 2;
+    }
+
+    .about-title__wrap {
+        width: 100%;
+    }
+}
+
+@media (max-width: 610px) {
+    .catalogue-wrap {
+        padding: 0 5px;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+
+    .catalogue-wrap .items {
+        height: 366px;
+        margin: 12px;
+    }
+
+    .risk-free-wrap {
+        padding: 0 5px;
+    }
+
+    .swiper-slide {
+        width: 94%;
+        height: 340px;
+    }
+
+}
+
+@media (max-width: 726px) {
+    .reviews__wrap {
+        padding: 0;
+    }
+
+    .our-product {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 530px) {
+    .swiper-button-prev:after {
+        margin-left: 19px;
+    }
+
+    .swiper-button-next:after {
+        margin-right: 19px;
+    }
+}
+
+@media (max-width: 490px) {
+    .reviews {
+        padding: 230px 40px 30px 40px;
+    }
+
+}
+
+@media (max-width: 378px) {
+    .reviews a {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 724px) {
+    .wrap__nav {
+        padding: 0;
+    }
+
+    .menu-wrapper {
+        /*position: relative;*/
+        background: #fff;
+    }
+
+    .nav-menu {
+        position: absolute;
+        width: 100%;
+        flex-direction: column;
+        /*justify-content: center;*/
+        left: 0;
+        top: 141px;
+        height: 100vh;
+        /*background: yellowgreen;*/
+        margin-bottom: 50px;
+        /*filter: blur(18px);*/
+    }
+
+    .menu-item {
+        margin-bottom: 50px;
+
+        font-size: 50px;
+        margin-top: 150px;
+        font-weight: 700;
+        filter: blur(18px);
+    }
+}
+
+@media (max-width: 832px) {
+    .logo {
+        margin: 0;
+    }
+
+}

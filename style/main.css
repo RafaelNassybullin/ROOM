@@ -210,7 +210,8 @@ ul {
 
 .brands-title {
     font-size: 48px;
-
+    padding: 0 30px;
+    text-align: center;
 }
 
 .brand-count {
@@ -506,6 +507,7 @@ ul.swiper-wrapper {
     display: flex;
     flex-wrap: wrap;
     margin: 67px 0;
+    justify-content: center;
 }
 
 .trial__icons-items {
