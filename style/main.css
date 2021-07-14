@@ -63,11 +63,13 @@ ul {
 
 .uppend__nav-shevron {
     margin-left: .6rem;
+    font-size: 8px;
 }
 
 .logo {
     margin-left: 88px;
     padding: 24px 0;
+    font-size: 50px;
 }
 
 .menu-wrapper {
@@ -95,6 +97,8 @@ ul {
 .nav-menu li a {
     color: black;
     text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 12px;
 }
 
 .menu-item {
@@ -105,11 +109,16 @@ ul {
 .location {
     display: flex;
     align-items: center;
+    font-size: 24px;
 
 }
 
 .location p {
     margin-left: 10px;
+    font-family: Roboto,sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
 }
 
 .nav-items-wrap {
@@ -119,6 +128,7 @@ ul {
 
 .nav-shop_cart {
     margin-left: 26px;
+    font-size: 25px;
 }
 
 
