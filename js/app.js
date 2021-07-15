@@ -1,3 +1,14 @@
+let burger = document.querySelector('.burger');
+let burger2 = document.querySelector('.burger2');
+let menu = document.querySelector('.nav-menu');
+
+burger.addEventListener('click', ()=>{
+    menu.style.top = '0'
+})
+burger2.addEventListener('click', ()=>{
+    menu.style.top = -824+'px';
+})
+
 let mySwiper = new Swiper(".swiper-container", {
     loop: true,
     slidesPerView: "auto",
